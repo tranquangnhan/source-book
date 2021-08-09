@@ -1,0 +1,65 @@
+RewriteEngine on
+RewriteRule ^$ site/
+
+
+
+
+
+
+RewriteRule ^trang-chu$ /site/?act=home [L]
+RewriteRule ^gioi-thieu$ /site/?act=about [L]
+RewriteRule ^gioi-thieu/bo-sgk-tieng-anh-global-success$ /site/?act=about&page=1 [L]
+RewriteRule ^gioi-thieu/bo-sgk-tieng-anh-thi-diem$ /site/?act=about&page=2 [L]
+RewriteRule ^gioi-thieu/tieng-anh-1$ /site/?act=about&page=3 [L]
+
+RewriteRule ^san-pham$ /site/?act=products [L]
+RewriteRule ^hoc-sinh$ /site/?act=student [L]
+RewriteRule ^giao-vien$ /site/?act=teacher [L]
+RewriteRule ^giao-vien/tai-nguyen$ /site/?act=teacher&what=1 [L]
+RewriteRule ^phu-huynh$ /site/?act=parent [L]
+RewriteRule ^bai-viet$ /site/?act=blog [L]
+RewriteRule ^lien-he$ /site/?act=contact [L]
+RewriteRule ^about/tieng-anh-1$ /site/?act=aboutorther1 [L]
+RewriteRule ^about/tieng-anh-2$ /site/?act=aboutorther2 [L]
+RewriteRule ^about/tieng-anh-6$ /site/?act=aboutorther3 [L]
+
+
+RewriteRule ^sach/mam-non$ /site/?act=products&level=1 [L]
+RewriteRule ^sach/tieu-hoc$ /site/?act=products&level=2 [L]
+RewriteRule ^sach/thcs$ /site/?act=products&level=3 [L]
+RewriteRule ^sach/thpt$ /site/?act=products&level=4 [L]
+RewriteRule ^sach/hoc-sinh$ /site/?act=products&level=10 [L]
+RewriteRule ^sach/giao-vien$ /site/?act=products&level=11 [L]
+RewriteRule ^sach/sach-giao-khoa$ /site/?act=products&level=12 [L]
+
+
+RewriteRule ^bai-viet/page-([0-9]+)$ /site/?act=blog&Page=$1 [L]
+
+RewriteRule ^bai-viet/page-([0-9]+)$ /site/index.php?act=blog&pagenum=$1 [L]
+
+RewriteRule ^bai-viet/([a-zA-Z0-9-]+)-([0-9]+)$ /site/?act=blogdetail&id=$2&slug=$1 [L]
+
+RewriteRule ^bai-viet/([a-zA-Z0-9-]+)-([0-9]+)/page-([0-9]+)$ /site/?act=blog&maloai=$2&Page=$3&slug=$1 [L]
+
+RewriteRule ^sach/([a-zA-Z0-9-]+)$ /site/?act=productdetail&slug=$1 [L]
+
+ErrorDocument 404 /site/views/Error404.php
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+
+</IfModule>
+<IfModule lsapi_module>
+
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

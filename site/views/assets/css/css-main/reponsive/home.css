@@ -1,0 +1,324 @@
+
+@media only screen and (max-width: 1200px) {
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        font-size: 0.8em;
+    }
+
+    img.logo-header {
+        width: 50px;
+    }
+
+    .logo-text {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991.80px) {     
+    .logo-lap {
+        display: none;
+    }
+
+    .logo-mobile {
+        display: inline-block;
+    }
+    
+    a.navbar-brand.logo-mobile.w-80 {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+		.search-2-left {
+			width: 96%;	
+		}
+		
+		.search-2-right {
+			width: 4%;
+		}
+		
+		.search-2-right button span {
+			right: 12px !important;
+		}
+		.dropdown-hover-2 {
+        display: none;
+    }
+
+    .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+        color: var(--color-main);
+    }
+
+    .dropdown-2 .dropdown-hover-2 {
+        left: 0px;
+    }
+
+    .dropdown-2 .dropdown-hover-2 {
+        top: 0px;
+        left: 0px;
+        margin-left: 19%;
+    }
+
+    .icon-top i {
+        font-size: 3em;
+    }
+
+    .title-3 {
+        font-size: 0.8em;
+    }
+
+    .about-describe {
+        display: none;
+    }
+
+    .search-box-will-show {
+        display: block;
+    }
+
+    .search-box-will-hide {
+        display: none;
+    }
+    
+    a.nav-link {
+        border-radius: 5px;
+    }
+    
+    a.nav-link:hover {
+        background: var(--color-main);
+        color: white!important;
+        border-radius: 5px;
+    }
+
+    li.nav-item {
+        border-radius: 5px;
+        margin-top: .1em;
+        text-align: left;
+    }
+
+    .ftco-navbar-light.scrolled .nav-link {
+        padding: 0.6em!important;
+    }
+
+    .drop-box.text-left {
+        display: none;
+    }    
+    
+    li.nav-item.bar-active.active a:hover {
+        color: white!important;        
+    }
+
+    .ftco-navbar-light .navbar-nav > .nav-item.active > a {
+        border: none!important;
+        background: var(--color-main);
+        color: white!important;
+        border-radius: 5px;
+    }
+
+    .navbar-collapse {
+        margin-top: 14px;
+    }
+
+    .ftco-navbar-light.scrolled .nav-item.active > a {
+        padding-bottom: 0.6em!important;
+        border: 0px;
+        background: var(--color-main);        
+        color: white!important;
+    }
+
+    .search-phone-menu {
+        display: block;
+    }
+
+    .ftco-navbar-light .navbar-toggler {
+        width: 10%;
+    }
+
+    .logo-header {
+        width: 7%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+		.search-2-left {
+			width: 95%;
+		}		
+    ul.ftco-footer-social.list-unstyled.float-md-left.float-lft {
+        display: inline-block;
+    }
+
+    .footer-contai {
+        padding: 15px 15px;
+    }
+
+		.block-27 ul li .big, .block-27 ul li .big {
+			width: 124px;
+			height: 40px;
+			line-height: 40px;
+			font-size: 1.1em;
+		}
+
+		.block-27 ul li a, .block-27 ul li span {
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			font-size: 1.1em;
+		}
+}
+
+@media only screen and (max-width: 589px) { 
+		label.category.btn.font-weight-600 {
+			font-size: 0.8em;
+		}
+
+		label.type.btn.font-weight-600 {
+			font-size: 0.8em;
+		}
+
+		.search-2-left {
+			width: 93%;
+		}
+}
+
+
+@media only screen and (max-width: 540px) {
+		.search-2-left {
+			width: 92%;
+		}
+    .button-to-right {
+        margin-top: -40%!important;
+    }
+    
+    .logo-header {
+        width: 50px;
+    }
+
+    .card-body.p-1p4rem {
+        padding: 0;
+    }
+
+    .heading-section h2 {
+        font-size: 1.4em;
+    }
+
+    .count-div-flex {
+        margin: 0.5em;  
+    }
+
+    .blog-2 {
+        display: none;
+    }
+
+    .fanpage-mobile {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .fanpage-md {
+        display: block;
+    }
+
+    .fanpage-lg {
+        display: none;
+    }
+
+    .contact-name {
+        font-size: 1.4em;
+    }
+
+    .dropdown-notdesk-click {
+        display: block;
+    }
+
+    .dropdown-desk {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+		.item.d-flex.justify-content-center.counter-wrap.ftco-animate.fadeInUp.ftco-animated {
+				width: 275px;
+				padding-top: .4em;
+		}
+    .search-button {
+				font-size: .8em;
+				height: 71%;
+				width: 100%;
+    }
+    
+    .fanpage-md {
+        display: none;
+    }
+
+    .fanpage-lg {
+        display: none;
+    }
+
+    
+    .fanpage-mobile {
+        display: block;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .cate-product {
+        display: none;
+    }
+
+		label.category.btn.font-weight-600 {
+			font-size: 0.8em;
+		}
+
+		label.type.btn.font-weight-600 {
+			font-size: 0.8em;
+		}
+
+		.ftco-section {
+			padding: 3em 0;
+		}
+}
+
+@media only screen and (max-width: 505px) { 
+        .detail-tittle.title h2 {
+            font-size: 1.5em;
+        }
+		label.category.btn.font-weight-600 {
+			font-size: 0.6em;
+		}
+
+		label.type.btn.font-weight-600 {
+			font-size: 0.6em;
+		}
+
+		.block-27 ul li .big, .block-27 ul li .big {
+			width: 84px;
+			height: 31px;
+			line-height: 31px;
+			font-size: 0.9em;
+		}
+
+		.block-27 ul li a, .block-27 ul li span {
+			width: 31px;
+			height: 31px;
+			line-height: 31px;
+			font-size: 0.9em;
+		}
+
+		.block-27 ul li {
+			margin-bottom: 0.5em;
+		}
+}
+
+@media only screen and (max-width: 456px) {
+	.search-button {
+    font-size: .7em;
+	}
+}
+
+@media only screen and (max-width: 390px) {
+	.search-2-left {
+		width: 89%;
+	}
+}
